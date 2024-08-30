@@ -1,0 +1,47 @@
+body {
+   color: rgb(32, 83, 250);
+    background: black;
+}
+
+header {
+color: rgb(14, 2, 2)(190, 39, 39);
+border: solid 10px  white;
+padding: 10px;
+font-size: 35px;
+}
+
+section{
+background: rgb(85, 231, 105);
+padding-bottom: 80px;
+padding-top: 80px;
+display:flex;
+justify-content: center;
+}
+
+.chamada-texto{
+ margin-right: 20px;
+ border-right: solid 6px black;
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.categoria-musicas img{
+height: 200px;
+opacity: 0.5;
+}
+.categoria-musicas img:hover{
+    opacity: 1.0;
+    height: 220px;
+}
+
+.categoria-musicas{
+    display:flex;
+    overflow-x: auto;
+}
